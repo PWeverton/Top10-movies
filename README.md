@@ -18,6 +18,8 @@ Pensando nisso, construi um sistema de ranqueamento de filmes em que você pode 
  - Faça uma conta no site www.themoviedb.org para obter sua Api key 
  - Substitua sua Api key no código
  - Obtenha todos os templates disponíveis no repositório
+ - Coloque os arquivos html dentro de uma pasta chamada 'templates'
+ - Coloque  arquivo style.css nem uma pasta chamada 'css' e esta dentro de outra pasta chamada 'static' obtendo o caminho 'static/css/style.css' 
 ##
 
 Após seguir seguir os passos anteriores. basta rodar o arquivo main.py
