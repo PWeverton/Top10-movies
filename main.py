@@ -8,10 +8,10 @@ import requests
 
 # Create a Flask application
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'uma-string-aleatória'
 
 # Setting Database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///lista_movies.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///list_movies.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Integrating Bootstrap
